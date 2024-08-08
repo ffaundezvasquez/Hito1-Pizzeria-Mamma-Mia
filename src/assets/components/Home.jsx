@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import CardPizza from "./CardPizza";
+import Register from "./Register";
+import Login from "./Login";
 
 function Home() {
 let ingrediente1 = ["mozzarella", "tomates", "jamón", "orégano"];
@@ -11,7 +13,9 @@ let ingrediente3 = ["mozzarella", "pepperoni", "orégano"];
 let precio3 = 6950;
   return (
     <div>
-      <Header />
+      <Register/>
+      {/* <Login/> */}
+      {/* <Header />
       <div className="container">
         <div className="row">
           <div className="col-md-4">
@@ -33,7 +37,7 @@ ac54-90f6c31eb3e3"
 />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

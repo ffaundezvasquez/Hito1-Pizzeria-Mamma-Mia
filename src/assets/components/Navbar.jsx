@@ -6,7 +6,7 @@ import {faLock} from '@fortawesome/free-solid-svg-icons';
 import {faRightToBracket} from '@fortawesome/free-solid-svg-icons';
 import {faUserGear} from '@fortawesome/free-solid-svg-icons';
 import {faCartShopping} from '@fortawesome/free-solid-svg-icons';
-import { carrito } from "../../utils/total";
+import { clp } from "../../utils/total";
 
 
 function Navbar() {
@@ -57,7 +57,7 @@ function Navbar() {
                   )
                 }
             </ul>
-            <button type="button" class="btn btn-link"> <FontAwesomeIcon icon={faCartShopping} />Total: ${carrito(total)}</button>
+            <button type="button" class="btn btn-link"> <FontAwesomeIcon icon={faCartShopping} />Total: ${clp(total)}</button>
           </div>
         </div>
       </nav>
